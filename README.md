@@ -17,6 +17,7 @@ The dataset has information of 100k orders from 2016 to 2018 made at multiple ma
 
 This is real commercial data, it has been anonymised, and references to the companies and partners in the review text have been replaced with the names of Game of Thrones great houses. 
 More information can be found here: https://www.kaggle.com/olistbr/brazilian-ecommerce
+![](https://github.com/yashica95/end-to-endproject/blob/main/data/Database%20Diagram.png)
 
 ### Goal:
 
