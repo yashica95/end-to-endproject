@@ -21,3 +21,41 @@ More information can be found here: https://www.kaggle.com/olistbr/brazilian-eco
 ### Goal:
 
 The goal is to propose a supervised model that can predict the customer lifetime value (LTV) based on the purchase history of the customers. By knowing the LTV of the customers, the company can focus on the customers who have higher LTV and therefore have better ROI of marketing budget. The proposed solution will contain a csv of customers and expected LTV of the customers. 
+
+## Project Structure: 
+
+### Data:
+The data retrieved from Kaggle as well as training and test sets.
+
+* `data/`
+   * [Original dataset and supporting documentation](https://www.kaggle.com/olistbr/brazilian-ecommerce) retrieved from Kaggle on 21st Jan, 2021
+* `train.csv`
+   * The dataset used for exploratory analysis to train machine learning models
+
+* `test.csv`
+   * The dataset used to evaluate the optimal model
+
+### Models:
+
+Serialized fine-tuned model
+
+* `experiment-1-model.pk`
+   * The final model with fine-tuned hyperparameters
+
+### Notebooks: 
+
+Exploratory data analysis (EDA) and building, analysing and fine-tuning the model
+
+* `EDA.ipynb`
+  * Exploratory data analysis of the given customer purchase data
+  * Data wrangling, Feature Engineering
+  * Testing and comparing the performance of supervised regression model
+  * Fine-tuning the model and creating a serialised model object  
+
+## Dependencies
+
+Please download the requirements.txt file and run the following command to download the dependencies: 
+```python3
+pip install -r requirements.txt
+```
+
