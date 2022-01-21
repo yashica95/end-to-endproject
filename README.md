@@ -21,7 +21,14 @@ More information can be found here: https://www.kaggle.com/olistbr/brazilian-eco
 
 ### Goal:
 
-The goal is to propose a supervised model that can predict the customer lifetime value (LTV) based on the purchase history of the customers. By knowing the LTV of the customers, the company can focus on the customers who have higher LTV and therefore have better ROI of marketing budget. The proposed solution will contain a csv of customers and expected LTV of the customers. 
+The goal is to propose a supervised model that can predict the customer lifetime value (LTV) based on the purchase history of the customers. By knowing the LTV of the customers, the company can focus on the customers who have higher LTV and therefore have better ROI of marketing budget. The proposed solution will contain a csv of customers and expected LTV of the customers. The primary goal of this work is to build a probabilistic model for forecasting customer lifetime value:
+
+Using the results of this exercise, managers should be able to:
+
+* Distinguish active customers from inactive customers.
+* Generate transaction forecasts for individual customers.
+* Predict the purchase volume of the entire customer base.
+
 
 ## Project Structure: 
 
@@ -35,6 +42,9 @@ The data retrieved from Kaggle as well as training and test sets.
 
 * `test.csv`
    * The dataset used to evaluate the optimal model
+
+* `notebooks/`
+   * The notebooks including the EDA analysis and model building
 
 ### Models:
 
