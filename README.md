@@ -46,12 +46,15 @@ The data retrieved from Kaggle as well as training and test sets.
 * `notebooks/`
    * The notebooks including the EDA analysis and model building
 
+* `notebooks/model`
+   * The folder includes the final fine tuned model
+
 ### Models:
 
 Serialized fine-tuned model
 
-* `experiment-1-model.pk`
-   * The final model with fine-tuned hyperparameters
+* `StackedEnsemble_BestOfFamily_6_AutoML_3_20220123_133216`
+   * The final model with fine-tuned hyperparameters using AutoML H2O
 
 ### Notebooks: 
 
